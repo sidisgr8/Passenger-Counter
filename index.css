@@ -46,6 +46,10 @@ button {
     background: #0a585a;
 }
 
+#reset-btn {
+    background-color: #0a63c9;
+}
+
 #save-el {
     font-weight: bold;
 }

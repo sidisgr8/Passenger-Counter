@@ -18,4 +18,8 @@ function save() {
     countEl.textContent = count
 }
 
+function reset() {
+    saveEl.textContent="Previous entries:"
+}
+
 
