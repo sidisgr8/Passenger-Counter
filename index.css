@@ -1,10 +1,19 @@
 body {
-    background-image: url("");
+    background-image: url("https://st2.indiarailinfo.com/kjfdsuiemjvcya2/0/6/4/7/5936647/0/202401091339313506673.jpg");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    top:28%;
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 h1 {
@@ -19,21 +28,24 @@ h2 {
 }
 
 button {
-    border: none;
+    border: 1px solid black;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 80%;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 
 #increment-btn {
-    background: darkred;
+    background: #670517;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #0a585a;
 }
 
+#save-el {
+    font-weight: bold;
+}
